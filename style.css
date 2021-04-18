@@ -8,29 +8,36 @@ html {
     box-sizing: inherit;
 }
 
-main{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
 }
 
-.boxiky{
+.boxik{
     background-color: rgb(228, 224, 224);
     border-radius: 10px;
     display: flex;
     
 }
 
-img{border-radius: 50%;
+img{
+    border-radius: 50%;
     width: 150px;
 }
 
 .Hanka, .Jana, .Marketa, .Monika{
-    width: 22%;
+    flex-basis: 22%;
     background-color: rgb(252, 249, 249);
     border-radius: 10px;
     padding: 2rem;
     margin: 2rem;
+    margin-right:0;
     text-align: center;
     flex: 1;
+}
+
+.Monika{
+    margin-right:2rem;
 }
 
 .icons img{
